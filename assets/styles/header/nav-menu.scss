@@ -1,0 +1,21 @@
+.nav-menu__list {
+  display: flex;
+  align-items: baseline;
+  font-weight: bold;
+}
+
+.nav-menu__item {
+  transition: all 0.2s linear;
+
+  &:hover {
+    color: #569441;
+  }
+}
+
+.nav-menu__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.nav-menu__item--logo {
+  margin-right: auto;
+}

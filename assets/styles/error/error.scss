@@ -1,0 +1,20 @@
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  font-weight: bold;
+}
+
+.error_title {
+  margin-right: 10px;
+}
+
+.error__icon {
+  svg {
+    path {
+      fill: #015A1A;
+      stroke: #015A1A;
+    }
+  }
+}
